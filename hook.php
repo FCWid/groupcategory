@@ -49,7 +49,7 @@ function plugin_groupcategory_uninstall()
 /**
  * Hook callback when a group is shown
  *
- * @param Group $entity
+ * @param Entity $entity
  */
 function plugin_groupcategory_post_show_group(Entity $entity)
 {
@@ -199,7 +199,7 @@ function plugin_groupcategory_post_show_group(Entity $entity)
 /**
  * Hook callback before a group is updated
  *
- * @param Group $entity
+ * @param Entity $entity
  */
 function plugin_groupcategory_group_update(Entity $entity)
 {
